@@ -44,34 +44,41 @@ main{
 }
 
 /* Scarecrow image */
-.image, .text {
+.imageContainer, .textContainer {
   width: 45%;
 }
 
-.image{
+.imageContainer{
   text-align: center;
 }
 
+.image{
+  width: 80%;
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+
 .image img {
-  width: 540px;
+  width: 100%;
   height: auto;
   object-fit: cover;
 }
 
 /* Text */
-.text{
+.textContainer{
   font-family: 'Space Mono', monospace;
   margin-right: 120px;
   color: #333333;
 }
 
-.text h1{
+.textContainer h1{
   font-size: 4rem;
   font-weight: 700;
   line-height: 95px;
 }
 
-.text p{
+.textContainer p{
   width: 380px;
   font-size: 1.5rem;
   line-height: 36px;
@@ -80,7 +87,7 @@ main{
   letter-spacing: -0.035em;
 }
 
-.text button{
+.textContainer button{
   width: 216px;
   height: 68px;
   background-color: #333333;
@@ -92,12 +99,15 @@ main{
   transition: background-color 0.4s ease-out, border-color 0.4s ease-out, color 0.4s ease-out;
 }
 
-.text button:hover{
+.textContainer button:hover{
   background-color: #ffffff;
   border-color: #333333;
   color: #333333;
+}
 
-  }
+.textContainer button:active{
+    background-color: #4df1ac;
+}
 
 /* __________________________________________________________________________ */
 /* Footer */
