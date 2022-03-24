@@ -55,7 +55,7 @@ main{
 
 .image{
   width: 80%;
-  min-width: 400px;
+  min-width: 300px;
   max-width: 540px;
   margin: 0 auto;
 }
@@ -116,6 +116,52 @@ main{
     margin-right: 40px;
   }
 
+  .textContainer h1{
+    font-size: 3rem;
+    line-height: 65px;
+  }
+
+  .textContainer p{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+@media screen and (max-width:800px){
+  .textContainer{
+    margin-right: 20px;
+  }
+
+  .textContainer h1{
+    font-size: 2.5rem;
+    line-height: 50px;
+  }
+
+  .textContainer p{
+    width: 300px;
+    font-size: 1rem;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .textContainer button{
+    width: 150px;
+    height: 50px;
+    font-size: 0.7rem;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width:700px){
+  main{
+    flex-direction: column;
+  }
+
+  .imageContainer, .textContainer{
+    width: 80%;
+    }
+
+  .image{
+    width: 80%;
+  }
 }
 
 /* __________________________________________________________________________ */
