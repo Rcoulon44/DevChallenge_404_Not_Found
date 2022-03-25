@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://rcoulon44.github.io/DevChallenge_404_Not_Found/">
+    <a href="https://github.com/Rcoulon44/DevChallenge_404_Not_Found.git">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Rcoulon44/DevChallenge_404_Not_Found">
       Solution
     </a>
     <span> | </span>
-    <a href="https://github.com/Rcoulon44/DevChallenge_404_Not_Found.git">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
       Challenge
     </a>
   </h3>
@@ -36,7 +36,8 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![Desktop version](Screenshots/desktop.png)
+![Mobile version](Screenshots/mobile.png)
 
 ### Built With
 
