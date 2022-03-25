@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/Rcoulon44/DevChallenge_404_Not_Found.git">
+    <a href="https://rcoulon44.github.io/DevChallenge_404_Not_Found/">
       Demo
     </a>
     <span> | </span>
